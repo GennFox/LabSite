@@ -1,0 +1,38 @@
+.divider_box{
+    margin: 2rem;
+    border-bottom: 2px solid $color-tertiary;
+    color: $color-tertiary;
+}
+
+.dividerText {
+    cursor: pointer;
+    width: max-content;
+    font-size: 2rem;
+    font-weight: 500;
+    // left: 12%;
+    padding: 0 15px;
+    color: $color-tertiary;
+    transition: all .2s;
+
+    &:hover{
+        background-color: rgba($color-white, .8);
+        box-shadow: 0 1rem 2rem rgba($color-grey-dark-2, .4);
+        transform: rotate(1deg) scale(1.02);
+    }
+}
+
+.tag{
+    width: fit-content;
+    padding: .3rem 1.2rem;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    display: inline-block;
+    color: $color-white;
+    margin-top: .6rem;
+
+    &:not(:last-child){
+        margin-right: .6rem;
+    }
+}
