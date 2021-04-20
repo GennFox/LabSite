@@ -39,7 +39,7 @@
             </div>
         </header>
         <div class="container">
-            <main class="content" @scroll="scrollEvent">
+            <main class="content" @scroll="scrollEvent" style="overflow-x: scroll; ">
                 <div class="welcome">
                     <h1 style="font-size: 10rem; margin-bottom: 2rem;">
                         Welcome
